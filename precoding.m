@@ -49,4 +49,5 @@ end
 figure;semilogy(SNRdBs,BER(:,1),'-*');hold on
 semilogy(SNRdBs,BER(:,2),'-o');hold off
 legend('ZF-precoding','MMSE-precoding')
-grid on
+grid on;
+% test github
